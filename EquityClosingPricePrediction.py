@@ -9,7 +9,6 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
 
-from sympy import true
 import yfinance as yf
 from fredapi import Fred
 
