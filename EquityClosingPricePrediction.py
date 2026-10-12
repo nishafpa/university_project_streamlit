@@ -468,7 +468,7 @@ def main():
             st.stop()
         equity_df = return_dict["data"]
         st.write(f"Final Dataset Created and Data Quality Check Passed!")
-        st.dataframe(equity_df, use_container_width=True)
+        st.dataframe(equity_df, width='stretch')
         
         return_dict = data_plot(df=equity_df)
         if not return_dict["status"]:
